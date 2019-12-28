@@ -20,6 +20,7 @@
 
 <link rel="stylesheet" href="main.css">
 
+<link rel="stylesheet" href="main2.css">
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
@@ -152,11 +153,34 @@
     <main class="container">
         
     <div class="intro">
-         <img class="profile" src="/image/maher.png"> 
-
-        <h1>AMRI Maher</h1>
-        <h2>Ingénieur || Consultant</h2>
-        <h2>Informatique &amp; Développeur</h2>
+        <h2>
+            Une question, une remarque ? Veuillez me contacter **
+            </h2>
+        <h3>Renseignez le formulaire ci-dessous, je vous réponds dans les plus brefs délais</h3>
+        
+        <div class="container_me">  
+            <form id="contact" action="" method="post">
+              <h3>Formulaire de contact !</h3>
+              
+              <fieldset>
+                <input placeholder="Votre nom *" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Votre adresse e-mail *" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Votre numéro de téléphone" type="tel" tabindex="3" required>
+              </fieldset>
+              
+              <fieldset>
+                <textarea placeholder="Tapez votre message ici...." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button class="btn-access" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Envoyer</button>
+                <button class ="btn-access" name="reset" type="reset" id="contact-reset" data-submit="...Annuler">Annuler</button>
+              </fieldset>
+            </form>
+          </div>
 
     </div>
 
