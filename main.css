@@ -9,7 +9,13 @@ body {
   text-align: center;
   flex-direction: column;
 }
+.intro > .profile_work {
 
+  width: 50vh;
+  height: 50vh;
+  border-radius: 20%;
+
+}
 main {
   margin: auto;
   padding: 25px;
